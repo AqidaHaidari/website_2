@@ -2,6 +2,10 @@
 body{
   padding: 0;
   margin: 0;
+  /* background-color: black; */
+}
+.head{
+    color: white;
 }
 .jumbotron{
     margin-top: 20px;
@@ -24,15 +28,25 @@ ul li:hover{
     background-color:white;
     color: black;
 }
-.sidebar p{
-    background-color:#044d95;
+.sidebar {
+    background-color:rgb(92, 118, 141);
     color: white;
     padding-top: 6px;
     padding-left: 6px;
     padding-bottom: 6px;
     border-radius: 5px;
     font-size: large;
-}
+  }
+  .sidebar  p{
+    background-color:white;
+    color: rgb(92, 118, 141);
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    margin: 20px;
+    border-radius: 5px;
+    font-size: large;
+  }
 .col-md-8 img{
     width: 200px;
     height: 200px;
